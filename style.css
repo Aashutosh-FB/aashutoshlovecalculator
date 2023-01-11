@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Bungee+Shade);
 @import url(https://fonts.googleapis.com/css?family=Bungee);
 h1 {
-  background-color: #eb21a8;
+  background-color: #fb05ff;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
@@ -11,13 +11,12 @@ h1 {
   font-family: 'Bungee Shade';
 }
 body {
-  background: url('https://images.pond5.com/silhouette-couple-kissing-black-and-footage-033998196_iconl.jpeg');
-  background-size: cover;
+  background-color: #ffaaf9;
 }
 .heart {
   top: 40px;
   position: relative;
-  background-color: red;
+  background-color: rgb(219, 37, 77);
   height: 60px;
   transform: rotate(-45deg);
   width: 60px;
@@ -25,7 +24,7 @@ body {
 .heart:before,
 .heart:after {
   content: "";
-  background-color: red;
+  background-color: rgb(216, 32, 90);
   border-radius: 50%;
   height: 60px;
   position: absolute;
@@ -47,6 +46,7 @@ div.person{
   background-color: #ff007b;
   height: 200px;
   width: 150px;
+  border-radius: 10px;
 }
 #card1{
   position: absolute;
@@ -68,7 +68,6 @@ div.persons{
   font-size: 20px;
   font-family: Arial;
 }
-
 input[type=text] {
   width: 89%;
   padding: 10px 10px;
@@ -80,7 +79,6 @@ input[type=text] {
   color: white;
   font-family: Arial sans-serif normal;
   margin-left: 10px;
-  text-align: center;
 }
 .setButton {
   background-color: #ffaaf9;
